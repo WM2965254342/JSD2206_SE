@@ -21,6 +21,8 @@ public class TryCatchDemo {
 //            System.out.println(str.length());//JAM会实例化对应异常抛出
             String str1="";
             System.out.println(str1.charAt(0));
+            //try语句块中如果某句代码出现了异常，那么其后的所有代码均不执行！！！！
+            System.out.println("!!!!!!!!!!!!!!");
 
             //当try语句块中几个异常有相同的处理方式时，我们可以合并到一个catch解决
         }catch (NullPointerException|StringIndexOutOfBoundsException e){
